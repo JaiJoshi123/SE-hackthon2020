@@ -1,0 +1,15 @@
+{% extends "csi_base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h1>Check This Project Out</h1>
+<p>{{ con.title }}</p>
+<p>{{ con.author }}</p>
+<p>{{ con.keywords }}</p>
+<p>{{ con.file }}</p>
+
+       <!--<form method="POST">    {% csrf_token %}
+        {{ form|crispy }}
+            <p></p>
+            <input type="submit" value='post it!' />
+        </form> -->
+{% endblock %}
