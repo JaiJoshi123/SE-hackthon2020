@@ -1,0 +1,17 @@
+pages:
+login
+home
+forum/create,/int
+project-upload
+about
+help-top youtubers/links/site
+chat
+
+chat window:
+web sockets
+server sent events
+django chat plugin
+
+innovation:
+rewards
+recommend projs

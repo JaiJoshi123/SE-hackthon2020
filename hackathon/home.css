@@ -1,0 +1,55 @@
+body {
+    font-family: "Nunito",sans-serif;
+}
+
+nav {
+    background-color: lightcyan;
+}
+
+li a:hover {
+    font-weight: 600;
+}
+
+.typewrite {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.typewrite:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 2px;
+  }
+
+.row1, .row2, .row3{ 
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.row1 h1{
+    display: flex;
+    justify-content: center;
+}
+
+.row2 {
+    height: 80vh;
+    letter-spacing: 2px;
+}
+
+footer {
+    background-color: lightcyan;
+}
+
+
